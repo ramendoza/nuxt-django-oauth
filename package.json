@@ -1,0 +1,17 @@
+{
+  "name": "@ramendoza/nuxt-django-oauth",
+  "version": "1.0.0",
+  "description": "Módulo Nuxt3+Nuxt4 para autenticación con Django OAuth Toolkit totalmente configurable",
+  "type": "module",
+  "main": "dist/module.mjs",
+  "files": ["dist"],
+  "author": "Rafael Mendoza",
+  "license": "MIT",
+  "peerDependencies": {
+    "nuxt": "^3.0.0 || ^4.0.0"
+  },
+  "scripts": {
+    "build": "nuxi module build",
+    "prepublishOnly": "npm run build"
+  }
+}
