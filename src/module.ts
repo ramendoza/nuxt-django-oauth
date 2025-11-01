@@ -2,7 +2,10 @@ import { defineNuxtModule, createResolver, addPlugin, addImportsDir } from 'nuxt
 import type { DjangoOAuthOptions } from './runtime/types'
 
 export default defineNuxtModule<DjangoOAuthOptions>({
-  meta: { name: '@ramendoza/nuxt-django-oauth', configKey: 'djangoOAuth' },
+  meta: {
+    name: '@ramendoza/nuxt-django-oauth',
+    configKey: 'djangoOAuth'
+  },
   defaults: {
     apiBase: '/api',
     clientId: '',
